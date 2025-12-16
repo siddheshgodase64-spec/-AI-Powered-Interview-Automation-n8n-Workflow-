@@ -1,14 +1,14 @@
-🤖 AI-Powered Interview Automation (n8n Workflow)
+# 🤖 AI-Powered Interview Automation (n8n Workflow)
 
 This workflow demonstrates an end-to-end AI-powered interview automation system built using n8n, Google Workspace, and OpenAI.
 
 It automatically schedules interviews and sends personalized emails when candidate data is updated in Google Sheets.
 
-🔄 Workflow Overview
+# 🔄 Workflow Overview
 
 The automation follows this sequence:
 
-1️⃣ Google Sheets Trigger
+# 1️⃣ Google Sheets Trigger
 
 Trigger Type: anyUpdate
 
@@ -18,7 +18,7 @@ Typically used when a candidate is shortlisted or added.
 
 📌 Example: Candidate email, name, role, and interview date added to the sheet.
 
-2️⃣ Code in JavaScript (Data Processing)
+# 2️⃣ Code in JavaScript (Data Processing)
 
 Cleans and structures sheet data.
 
@@ -34,7 +34,7 @@ Job Role
 
 🛠 Used for data validation and formatting.
 
-3️⃣ Create an Event (Google Calendar)
+# 3️⃣ Create an Event (Google Calendar)
 
 Automatically creates a Google Calendar interview event.
 
@@ -44,7 +44,7 @@ Ensures proper interview tracking.
 
 📅 Eliminates manual scheduling.
 
-4️⃣ Basic LLM Chain (AI Logic)
+# 4️⃣ Basic LLM Chain (AI Logic)
 
 Connected to OpenAI Chat Model.
 
@@ -56,7 +56,7 @@ Professional tone and structured content
 
 🧠 This is where AI personalization happens.
 
-5️⃣ Code in JavaScript (Post-Processing)
+# 5️⃣ Code in JavaScript (Post-Processing)
 
 Formats the AI-generated response.
 
@@ -64,7 +64,7 @@ Converts content into email-ready format.
 
 Handles subject/body separation.
 
-6️⃣ Send a Message (Gmail)
+# 6️⃣ Send a Message (Gmail)
 
 Sends the final interview email to the candidate.
 
@@ -72,7 +72,7 @@ Fully automated Gmail integration.
 
 📧 Result: Candidate receives a professional AI-generated interview email instantly.
 
-🚀 Key Features
+# 🚀 Key Features
 
 ✅ Fully automated interview scheduling
 
@@ -84,7 +84,7 @@ Fully automated Gmail integration.
 
 ✅ Scalable HR / recruitment automation
 
-🧩 Tech Stack
+# 🧩 Tech Stack
 
 n8n – Workflow automation
 
@@ -98,7 +98,7 @@ OpenAI Chat Model – AI message generation
 
 JavaScript – Data processing
 
-📌 Use Cases
+# 📌 Use Cases
 
 HR Interview Scheduling
 
@@ -107,3 +107,7 @@ Recruitment Automation
 AI-Driven Candidate Communication
 
 Smart Calendar Management
+## Output
+<img width="1905" height="971" alt="Ai powered Automation workflow" src="https://github.com/user-attachments/assets/e2b03722-4736-4ba0-9ad9-549d0498ccf7" />
+<img width="1917" height="910" alt="Screenshot 2025-12-16 181304" src="https://github.com/user-attachments/assets/066652aa-cc54-4bd9-8929-8391130ca885" />
+
